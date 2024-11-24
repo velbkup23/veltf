@@ -1,5 +1,5 @@
 resource "random_string" "suffix" {
-  count = 3
+  count = local.rg_count
   length  = 3
   upper   = false
   special = false
