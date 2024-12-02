@@ -1,6 +1,6 @@
 resource "random_string" "suffix" {
   count = local.rg_count
-  length  = 3
+  length  = 1
   upper   = false
   special = false
 }
